@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Pricing | BrandLyft Digital</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ===== NAVBAR (REUSE SAME NAVBAR) ===== -->
+<nav id="mainNavbar" class="navbar navbar-expand-lg sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="logo.png" class="logo" alt="BrandLyft Digital">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+        <li class="nav-item"><a class="nav-link active" href="pricing.html">Pricing</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="pricing py-5">
+  <div class="container">
+
+    <!-- Section Header -->
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">Simple, Transparent Pricing</h2>
+      <p class="pricing-subtitle mt-2">
+        No hidden charges. Built to scale with your business.
+      </p>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- Starter -->
+      <div class="col-lg-3 col-md-6">
+        <div class="pricing-card">
+          <span class="discount-badge">Best for Starters</span>
+
+          <h5 class="plan-title">Starter</h5>
+          <p class="plan-desc">Perfect for personal brands & small sites</p>
+
+          <div class="price">
+            ₹69<span>/mo</span>
+          </div>
+
+          <button class="btn pricing-btn-outline">Choose Plan</button>
+
+          <ul class="plan-features">
+            <li>1 Website</li>
+            <li>10 GB SSD Storage</li>
+            <li>Free SSL Certificate</li>
+            <li>Weekly Backups</li>
+            <li>Email Support</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Popular -->
+      <div class="col-lg-3 col-md-6">
+        <div class="pricing-card featured">
+          <span class="discount-badge highlight">Most Popular</span>
+
+          <h5 class="plan-title">Professional</h5>
+          <p class="plan-desc">Ideal for growing businesses</p>
+
+          <div class="price">
+            ₹149<span>/mo</span>
+          </div>
+
+          <button class="btn pricing-btn-outline">Choose Plan</button>
+
+          <ul class="plan-features">
+            <li>Up to 5 Websites</li>
+            <li>20 GB SSD Storage</li>
+            <li>Free Domain (1 Year)</li>
+            <li>Daily Backups</li>
+            <li>Priority Support</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Business -->
+      <div class="col-lg-3 col-md-6">
+        <div class="pricing-card">
+          <span class="discount-badge">Growth</span>
+
+          <h5 class="plan-title">Business</h5>
+          <p class="plan-desc">Built for scaling teams & traffic</p>
+
+          <div class="price">
+            ₹249<span>/mo</span>
+          </div>
+
+          <button class="btn pricing-btn-outline">Choose Plan</button>
+
+          <ul class="plan-features">
+            <li>Up to 20 Websites</li>
+            <li>50 GB NVMe Storage</li>
+            <li>Advanced Security</li>
+            <li>On-demand Backups</li>
+            <li>Performance Optimization</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Enterprise -->
+      <div class="col-lg-3 col-md-6">
+        <div class="pricing-card">
+          <span class="discount-badge">Enterprise</span>
+
+          <h5 class="plan-title">Cloud Pro</h5>
+          <p class="plan-desc">High performance & reliability</p>
+
+          <div class="price">
+            ₹599<span>/mo</span>
+          </div>
+
+          <button class="btn pricing-btn-outline">Choose Plan</button>
+
+          <ul class="plan-features">
+            <li>Unlimited Websites</li>
+            <li>100 GB NVMe Storage</li>
+            <li>Dedicated Resources</li>
+            <li>24/7 Expert Support</li>
+            <li>Advanced Monitoring</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
